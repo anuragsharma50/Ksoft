@@ -6,7 +6,7 @@ function Call() {
     return (
         <div className='phonecontainer'>
             <img src={phone} alt="phone" className='phoneIcon'/>
-            <a className='call' href='tel:+91123456789'>Call us</a>
+            <a className='call' href='tel:+919990826002'>Call us</a>
         </div>
     )
 }

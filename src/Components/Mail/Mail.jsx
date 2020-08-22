@@ -6,7 +6,7 @@ function Mail() {
     return (
         <div className='mailcontainer'>
             <img src={gmail} alt="gmail" className='mailIcon'/>
-            <a className='mail' href='mailto:abc@gmail.com'>Message</a>
+            <a className='mail' href='mailto:ksoftnoida@gmail.com'>Message</a>
         </div>
     )
 }
