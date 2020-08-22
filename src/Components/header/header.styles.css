@@ -1,0 +1,100 @@
+.header {
+    background-color: rgb(71, 137, 212);
+    padding: 10px;
+    height: 140px;
+}
+
+.logo {
+    position: relative;
+    width: 130px;
+    float: left;
+    margin: 5px 10px;
+}
+
+.contacts {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    height: 95px;
+}
+
+.contact {
+    float: left;
+    padding: 0px 35px;
+    cursor: pointer;
+    height: 90px;
+}
+
+.headings{
+    padding: 0px 10px;
+}
+
+.menu {
+    position: relative;
+    float: left;
+    margin: 3px 12px;
+    background-color: white;
+    width: 15px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.text-heading {
+    position: relative;
+    float: left;
+    margin: 10px 2px;
+    background-color: white;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.text-heading:hover {
+    background-color: rgb(42, 212, 241);
+}
+
+.icons{
+    position: relative;
+    top: -70px;
+}
+
+.linkedin{
+    position: absolute;
+    left: 980px;
+    width: 25px;
+}
+
+.fb{
+    position: absolute;
+    left: 1040px;
+}
+
+.twitter{
+    position: absolute;
+    left: 1100px;
+    width: 29px;
+}
+
+.phone{
+    position: absolute;
+    top: 23px;
+    left: 155px;
+    width: 25px;
+}
+
+.whatsapp{
+    position: absolute;
+    top: 22px;
+    left: 345px;
+    width: 25px;
+}
+
+
+.gmail{
+    position: absolute;
+    top: 20px;
+    left: 555px;
+    width: 30px;
+}

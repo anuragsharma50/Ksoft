@@ -1,0 +1,17 @@
+.image-map {
+    width: 85vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.course-image {
+    width: 25vw;
+    margin: 10px;
+}
+
+.course-image:hover {
+    transform: scale(1.05);
+    transition: all 0.3s;
+}

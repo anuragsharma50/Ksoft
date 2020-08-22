@@ -1,0 +1,27 @@
+.mailcontainer{
+    position: fixed;
+    bottom: 0;
+    left: 150px;
+    width: 120px;
+    padding: 2px;
+    border: 3px solid rgb(241, 34, 34);
+    background-color: rgb(241, 34, 34);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+}
+
+.mail{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.mailIcon{
+    width: 22px;
+    position: absolute;
+    left: 5px;
+}
