@@ -1,0 +1,11 @@
+.about {
+    width: 37vw;
+    margin: auto; 
+}
+
+.about-heading {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 2px solid gainsboro;
+    padding: 10px;
+ 
+}

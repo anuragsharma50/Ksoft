@@ -5,7 +5,7 @@ import Data from '../Data/imageData';
 
 function Courses() {
 
-    const [data, setData] = useState(Data)
+    const [data] = useState(Data)
 
     return (
         <div className='course-container'>

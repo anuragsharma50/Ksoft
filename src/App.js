@@ -7,6 +7,8 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Call from './Components/Call/Call';
 import Mail from './Components/Mail/Mail';
 import Courses from './Components/Courses/Courses';
+import Review from './Components/Review/Review';
+import Footer from './Components/Footer/Footer';
 
 function App() {
 
@@ -15,9 +17,13 @@ function App() {
       <Header />
       <Images />
       <Courses />
+      <Review />
+
       <Mail />
       <Call />
       <EnquiryBox /> 
+
+      <Footer/>
     </div>
   );
 }

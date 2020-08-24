@@ -1,0 +1,40 @@
+.toggler{
+    width: 90%;
+    margin: auto;
+    font-size: 11px;
+}
+
+.toggler-main-heading{
+    background-color: rgb(214, 210, 210);
+    padding: 10px 20px 0px 20px ;
+    text-align: left;
+    color: rgb(51, 50, 50);
+    height: 28px; 
+    border-top: 1px solid rgb(214, 210, 210);
+    cursor: pointer;
+    user-select: none;
+}
+
+.toggler-icon{
+    text-align: end;
+    position: relative;
+    bottom: 25px;
+    font-size: 25px;
+}
+
+.toggle-content-heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.toggle-content {
+    font-size: 14px;
+    color: rgb(141, 140, 140);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.about-image {
+    width: 30%;
+    float: left;
+    margin: 5px;
+}
