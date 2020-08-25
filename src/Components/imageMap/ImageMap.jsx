@@ -1,7 +1,7 @@
 import React from 'react';
 import './imagemap.styles.css';
 
-function ImageMap({imageArray,id}) {
+function ImageMap({imageArray}) {
     return (
         <div className='image-map'>
             {
