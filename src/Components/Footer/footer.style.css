@@ -1,4 +1,76 @@
 .footer {
-    background-color: black;
-    height: 50px;
+    background-color: #2b2a2a;
+    /* height: 50px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 20px 8vw;
+}
+
+.footer-about {
+    margin-top: 10px;
+}
+
+.footer-about-icons {
+    margin: 5px;
+    float: left;
+}
+
+.footer-twitter {
+    margin: -4px 10px;
+    width: 32px;
+}
+
+.footer p {
+    color: #c2b7b7;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+}
+
+.footer h3{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 2px solid rgb(50, 214, 235);
+    padding: 2px;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.footer-image {
+    margin: 20px 10px;
+    width: 100px;
+    float: left;
+}
+
+/* .footer-contact h3 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 2px solid rgb(50, 214, 235);
+    padding: 2px;
+    width: 50%;
+    margin: 10px auto;
+} */
+
+.footer-contact-details {
+    display: flex;
+}
+
+.footer-contact-icons {
+    flex: 0.1;
+    flex-direction: column;
+    margin: 15px 10px;   
+}
+
+.footer-phone{
+    margin-top: 35px;
+    width: 25px;
+}
+
+.footer-mail{
+    margin-top: 10px;
+    width: 25px;
+}
+
+.footer-contact-data {
+    flex: 0.85;
 }
