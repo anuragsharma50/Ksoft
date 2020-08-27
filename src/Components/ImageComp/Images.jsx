@@ -19,7 +19,6 @@ function Images() {
     })
 
     return (
-        // <div className='container'>
         <Carousel autoPlay className='imageholder' {...getConfigurableProps()} width="1000px">
             <div>
                 <img src={one} alt="Ksoft" className='images'/>
@@ -49,7 +48,6 @@ function Images() {
                 <img src={nine} alt="Ksoft" className='images'/>
             </div>            
         </Carousel>
-        // {/* </div> */}
     )
 }
 
