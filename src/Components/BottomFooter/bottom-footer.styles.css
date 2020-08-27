@@ -4,3 +4,11 @@
     padding: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+@media only screen and (max-width: 600px) {
+    .bottom-footer {
+        width: 100vw;
+        padding: 5px 10px;
+        height: 50px;
+    }
+}

@@ -25,8 +25,8 @@ function Header() {
             <div className='contacts'>
                 <div className='contact'>
                 <img src={phone} alt="phone" className='phone'/>
-                <h2>Mobile No.</h2>
-                <p>+91 9990826002</p>
+                <h2 className='heading-text'>Mobile No.</h2>
+                <p className='heading-data'>+91 9990826002</p>
                 </div>
 
                 <div className='contact'>
@@ -40,16 +40,18 @@ function Header() {
                 <h2><img src={gmail} alt="gmail" className='gmail'/>Email</h2>
                 <p>ksoft@gmail.com</p>
                 </div>
+
+                <div className='icons'>
+                    <img src={linkedin} alt="linkedin" className='linkedin'/>
+                    <img src={fb} alt="fb" className='fb'/>
+                    <img src={twitter} alt="twitter" className='twitter'/>
+                </div>
             </div>
 
-            <div className='icons'>
-                <img src={linkedin} alt="linkedin" className='linkedin'/>
-                <img src={fb} alt="fb" className='fb'/>
-                <img src={twitter} alt="twitter" className='twitter'/>
-            </div>
+            
 
             <div className='headings'>
-                <h2 className='text-heading' onClick={() => changeMenu()}>
+                <h2 onClick={() => changeMenu()}>
                 <img src={menuIcon} alt="menu" className='menu'/>
                 </h2>
 

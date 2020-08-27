@@ -1,14 +1,9 @@
 .footer {
     background-color: #2b2a2a;
-    /* height: 50px; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
     padding: 20px 8vw;
-}
-
-.footer-about {
-    margin-top: 10px;
 }
 
 .footer-about-icons {
@@ -42,15 +37,6 @@
     float: left;
 }
 
-/* .footer-contact h3 {
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-bottom: 2px solid rgb(50, 214, 235);
-    padding: 2px;
-    width: 50%;
-    margin: 10px auto;
-} */
-
 .footer-contact-details {
     display: flex;
 }
@@ -73,4 +59,22 @@
 
 .footer-contact-data {
     flex: 0.85;
+}
+
+.footer-pages p {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        width: 90vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        padding: 20px 8vw;
+    }
+
+    .footer-image {
+        float: initial;
+    }
 }

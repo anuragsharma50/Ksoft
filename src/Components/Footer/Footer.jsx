@@ -10,7 +10,6 @@ import Linkedin from '../../icons/linkedin-white.png';
 
 import BottomFooter from '../BottomFooter/BottomFooter';
 
-
 function Footer() {
     return (
         <div>
@@ -30,8 +29,12 @@ function Footer() {
 
             </div>
 
-            <div>
-
+            <div className='footer-pages'>
+                <h3>Pages</h3>
+                <p>Home</p>
+                <p>Courses</p>
+                <p>Blog</p>
+                <p>Contact Us</p>
             </div>
 
             <div className='footer-contact'>

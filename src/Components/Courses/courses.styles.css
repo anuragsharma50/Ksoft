@@ -34,3 +34,23 @@
 .coursename:hover {
     background-color: #25b1b6;
 }
+
+@media only screen and (max-width: 600px) {
+    .courses-heading {
+        width: 91vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 3px;
+        cursor: pointer;
+    }
+
+    .coursename {
+        margin: 0px auto;
+        padding: 12px;
+        color: white;
+        border-radius: 5px;
+        background-color: #4789d4;
+        width: 95%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}

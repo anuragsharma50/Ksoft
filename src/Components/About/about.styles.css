@@ -7,5 +7,15 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-bottom: 2px solid gainsboro;
     padding: 10px;
- 
+}
+
+@media only screen and (max-width: 600px) {
+    .about {
+        width: 100vw;
+        margin: auto 1vw; 
+    }
+
+    .about-heading {
+        padding: 10px 20px;
+    }
 }

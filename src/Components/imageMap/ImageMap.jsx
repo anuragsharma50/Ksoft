@@ -6,7 +6,12 @@ function ImageMap({imageArray}) {
         <div className='image-map'>
             {
                 imageArray.map(({imgUrl,id}) => 
-                    <img key={id} className='course-image' src={imgUrl} alt='course'/>
+                    <div key={id} className='container'>
+                        <img className='course-image' src={imgUrl} alt='course'/>
+                        <div className='middle'>
+                            <div className='text'>Read More</div>
+                        </div>
+                    </div>
                 ) 
             }
         </div>
