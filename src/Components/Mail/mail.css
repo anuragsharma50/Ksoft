@@ -25,3 +25,23 @@
     position: absolute;
     left: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+    .mailcontainer{
+        left: 30vw;
+        width: 90px;
+        border: none;
+    }
+    
+    .mail{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    
+    .mailIcon{
+        width: 20px;
+        position: absolute;
+        left: 5px;
+        top: 4px;
+    }
+}

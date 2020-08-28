@@ -1,5 +1,5 @@
 .header {
-    background-color: rgb(71, 137, 212);
+    background-color: #4789d4;
     padding: 10px;
     height: 140px;
     width: 100vw;
@@ -33,26 +33,20 @@
 }
 
 .menu {
-    position: relative;
-    float: left;
-    margin: 3px 12px;
-    background-color: white;
-    width: 15px;
-    font-size: 18px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    cursor: pointer;
+    position: absolute;
     visibility: hidden;
 }
 
 .text-heading {
     position: relative;
     float: left;
-    margin: 10px 2px;
+    margin: 5px 2px;
     background-color: white;
     padding: 5px 10px;
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     cursor: pointer;
+    margin-top: -10px;
 }
 
 .text-heading:hover {
@@ -62,25 +56,17 @@
 .icons{
     position: relative;
     top: 20px;
-    /* left: 350px; */
-    /* right: 2vw; */
 }
 
 .linkedin{
-    /* position: absolute; */
-    /* left: 980px; */
     width: 25px;
 }
 
 .fb{
-    /* position: absolute; */
     margin: 0px 20px;
-    /* left: 1040px; */
 }
 
 .twitter{
-    /* position: absolute; */
-    /* left: 1100px; */
     width: 29px;
 }
 
@@ -107,37 +93,70 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .header {
+        height: 10vh;
+        width: 94vw;
+    }
+
+    .logo {
+        width: 10vh;
+        margin: -2px; 
+    }
+
+    .contact {
+        visibility: hidden;
+        position: absolute;
+    }
+
     .phone{
         position: absolute;
-        top: 23px;
-        /* left: 155px; */
-        width: 20px;
+        visibility: hidden;
     }
     
     .whatsapp{
         position: absolute;
-        top: 22px;
-        left: 145px;
-        width: 20px;
+        visibility: hidden;
     }
     
     
     .gmail{
         position: absolute;
-        top: 20px;
-        left: 255px;
-        width: 25px;
+        visibility: hidden;
     }
 
     .menu {
-        position: relative;
-        float: left;
+        position: absolute;
+        top: 10px;
+        right: 2px;
         margin: 3px 12px;
-        background-color: white;
-        width: 15px;
-        font-size: 18px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: #4789d4;
+        width: 20px;
         cursor: pointer;
         visibility: visible;
+    }
+
+    .text-headings{
+        margin-top: -7vh; 
+    }
+
+    .heading-text {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .heading-data {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .text-heading {
+        font-size: 18px;
+        width: 80vw;
+        margin-top: 5px;
+    }
+
+    .icons{
+        position: absolute;
+        visibility: hidden;
     }
 }

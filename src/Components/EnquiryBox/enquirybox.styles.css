@@ -13,4 +13,14 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .enquiry-box {
+    left: 70vw;
+    width: 90px;
+    border: 2px solid rgb(71, 137, 212);
+    font-size: 12px;
+    padding: 4px;
   }
+}

@@ -31,14 +31,14 @@ function Header() {
 
                 <div className='contact'>
                 <img src={whatsapp} alt="whatsapp" className='whatsapp'/>
-                <h2>Whatsapp</h2>
-                <p>+91 9990826002</p>
+                <h2 className='heading-text'>Whatsapp</h2>
+                <p className='heading-data'>+91 9990826002</p>
                 </div>
 
                 <div className='contact'>
-                
-                <h2><img src={gmail} alt="gmail" className='gmail'/>Email</h2>
-                <p>ksoft@gmail.com</p>
+                <img src={gmail} alt="gmail" className='gmail'/>
+                <h2 className='heading-text'>Email</h2>
+                <p className='heading-data'>ksoft@gmail.com</p>
                 </div>
 
                 <div className='icons'>
@@ -56,7 +56,7 @@ function Header() {
                 </h2>
 
                 {   menu && 
-                    <div>
+                    <div className='text-headings'>
                     <h2 className='text-heading'>Home</h2>
                     <h2 className='text-heading'>About Us</h2>
                     <h2 className='text-heading'>Courses</h2>

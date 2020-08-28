@@ -76,3 +76,12 @@ label{
     font-size: 13px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+@media only screen and (max-width: 600px) {
+    .enquiry-form {
+        border: 2px solid rgb(124, 123, 123);
+        width: 95vw;
+        height: 485px;
+        left: 2vw;
+    }
+}

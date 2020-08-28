@@ -19,7 +19,7 @@ function Images() {
     })
 
     return (
-        <Carousel autoPlay className='imageholder' {...getConfigurableProps()} width="1000px">
+        <Carousel autoPlay className='imageholder' {...getConfigurableProps()}>
             <div>
                 <img src={one} alt="Ksoft" className='images'/>
             </div>

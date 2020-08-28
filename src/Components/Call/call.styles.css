@@ -27,19 +27,22 @@
 
 @media only screen and (max-width: 600px) {
     .phonecontainer{
-        left: 2px;
+        position: fixed;
+        left: 3vw;
         width: 70px;
         padding: 2px;
+        border: none;
     }
 
     .call{
         font-size: 12px;
+        margin-left: 10px; 
     }
     
     .phoneIcon{
         width: 15px;
         position: absolute;
-        left: -2px;
+        left: 2px;
         padding: 5px 2px;
     }
 }
