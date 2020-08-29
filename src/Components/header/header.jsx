@@ -10,6 +10,8 @@ import phone from '../../icons/phone.png';
 import gmail from '../../icons/gmail.png';
 import menuIcon from  '../../icons/menu.png';
 
+import KSOFT from '../../images/6.jpg';
+
 function Header() {
 
     const [menu, setMenu] = useState(true)
@@ -48,7 +50,9 @@ function Header() {
                 </div>
             </div>
 
-            
+            <div className='pvt-ltd'>
+                <img className='header-image' src={KSOFT} alt="Ksoft Solutions"/>
+            </div>
 
             <div className='headings'>
                 <h2 onClick={() => changeMenu()}>

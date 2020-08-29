@@ -124,6 +124,11 @@ const data = [
         imgUrl: require('../../images/courses/digital-marketing.jpg'),
         type:'bfsi'
     },
+    {
+        id:27,
+        imgUrl: require('../../images/courses/training.jpg'),
+        type:'industrial training'
+    }
 ]
 
 export default data;

@@ -92,6 +92,11 @@
     width: 30px;
 }
 
+.pvt-ltd{
+    visibility: hidden;
+    position: absolute;
+}
+
 @media only screen and (max-width: 600px) {
     .header {
         height: 10vh;
@@ -158,5 +163,16 @@
     .icons{
         position: absolute;
         visibility: hidden;
+    }
+
+    .pvt-ltd{
+        visibility: visible;
+        position: absolute;
+        top: 5px;
+        left: 32vw;
+    }
+
+    .header-image{
+        width: 45vw;
     }
 }
