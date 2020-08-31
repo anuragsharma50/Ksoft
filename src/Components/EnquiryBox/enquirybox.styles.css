@@ -1,7 +1,7 @@
 .enquiry-box {
     position: fixed;
     bottom: 0;
-    right: 20px;
+    right: 110px;
     width: 200px;
     padding: 2px;
     border: 3px solid rgb(71, 137, 212);
@@ -17,10 +17,10 @@
 
 @media only screen and (max-width: 600px) {
   .enquiry-box {
-    left: 70vw;
-    width: 90px;
+    left: 46.5vw;
+    width: 70px;
     border: 2px solid rgb(71, 137, 212);
     font-size: 12px;
-    padding: 4px;
+    padding: 3.5px;
   }
 }

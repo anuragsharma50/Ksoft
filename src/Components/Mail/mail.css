@@ -28,14 +28,15 @@
 
 @media only screen and (max-width: 600px) {
     .mailcontainer{
-        left: 30vw;
-        width: 90px;
+        left: 20vw;
+        width: 80px;
         border: none;
     }
     
     .mail{
         font-size: 12px;
-        margin-left: 10px;
+        margin-left: 20px;
+
     }
     
     .mailIcon{

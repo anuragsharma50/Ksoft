@@ -10,7 +10,7 @@ import phone from '../../icons/phone.png';
 import gmail from '../../icons/gmail.png';
 import menuIcon from  '../../icons/menu.png';
 
-import KSOFT from '../../images/6.jpg';
+import KSOFT from '../../images/Header-image.jpg';
 
 function Header() {
 

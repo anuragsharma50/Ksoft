@@ -29,7 +29,6 @@
 
 .headings{
     padding: 0px 10px;
-    /* margin-top: -40px; */
 }
 
 .menu {
@@ -131,17 +130,17 @@
 
     .menu {
         position: absolute;
-        top: 10px;
-        right: 2px;
+        top: 4vh;
+        right: 0.5vw;
         margin: 3px 12px;
         background-color: #4789d4;
-        width: 20px;
+        width: 25px;
         cursor: pointer;
         visibility: visible;
     }
 
     .text-headings{
-        margin-top: -7vh; 
+        margin-top: -5vh; 
     }
 
     .heading-text {
@@ -168,11 +167,12 @@
     .pvt-ltd{
         visibility: visible;
         position: absolute;
-        top: 5px;
-        left: 32vw;
+        top: 1.4vh;
+        left: 25vw;
     }
 
     .header-image{
-        width: 45vw;
+        width: 60vw;
+        height: 10vh;
     }
 }
