@@ -1,5 +1,5 @@
 .header {
-    background-color: #4789d4;
+    background-color: #265c99;
     padding: 10px;
     height: 140px;
     width: 100vw;
@@ -24,7 +24,6 @@
     padding: 0px 35px;
     cursor: pointer;
     height: 90px;
-    /* width: 100vw; */
 }
 
 .headings{
@@ -45,16 +44,23 @@
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     cursor: pointer;
-    margin-top: -10px;
+    margin-top: -12px;
+    color:#265c99;
+    border-bottom: 3px solid #2ad4f1;
 }
 
 .text-heading:hover {
-    background-color: rgb(42, 212, 241);
+    color:#0a1624;
+    transform: scale(1.05);
+    transition: all 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #2ad4f1;
 }
 
 .icons{
     position: relative;
     top: 20px;
+    left: -15px;
 }
 
 .linkedin{
@@ -133,14 +139,14 @@
         top: 4vh;
         right: 0.5vw;
         margin: 3px 12px;
-        background-color: #4789d4;
+        background-color: #265c99;
         width: 25px;
         cursor: pointer;
         visibility: visible;
     }
 
     .text-headings{
-        margin-top: -5vh; 
+        margin-top: -5vh;
     }
 
     .heading-text {
