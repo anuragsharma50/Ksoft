@@ -2,6 +2,8 @@ import React,{useState} from 'react';
 import logo from '../../images/logo.jpg';
 import './header.styles.css';
 
+import { Link } from 'react-router-dom';
+
 import linkedin from '../../icons/linkedin.png';
 import fb from '../../icons/fb.png';
 import twitter from '../../icons/twitter.png';
@@ -22,7 +24,9 @@ function Header() {
 
     return (
         <div className='header'>
-            <img src={logo} alt="Ksoft" className='logo'/>
+            <Link to='/'>
+                <img src={logo} alt="Ksoft" className='logo'/>
+            </Link>
 
             <div className='contacts'>
                 <div className='contact'>
@@ -61,7 +65,9 @@ function Header() {
 
                 {   menu && 
                     <div className='text-headings'>
-                    <h2 className='text-heading'>Home</h2>
+                        <Link to='/'>
+                            <h2 className='text-heading'>Home</h2>
+                        </Link>
                     <h2 className='text-heading'>About Us</h2>
                     <h2 className='text-heading'>Courses</h2>
                     <h2 className='text-heading'>Industrial Training</h2>

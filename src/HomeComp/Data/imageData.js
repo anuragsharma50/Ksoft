@@ -2,42 +2,50 @@ const data = [
     {
         id:1,
         imgUrl: require('../../images/courses/android.jpg'),
-        type:'software development'
+        type:'software development',
+        name: 'Android'
     },
     {
         id:2,
         imgUrl: require('../../images/courses/angular-js.jpg'),
-        type:'software development'
+        type:'software development',
+        name: 'Angular'
     },
     {
         id:3,
         imgUrl: require('../../images/courses/php.jpg'),
-        type:'software development'
+        type:'software development',
+        name: 'PHP'
     },
     {
         id:4,
         imgUrl: require('../../images/courses/python.png'),
-        type:'software development'
+        type:'software development',
+        name: 'Python'
     },
     {
         id:5,
         imgUrl: require('../../images/courses/mcse.jpg'),
-        type:'networking'
+        type:'networking',
+        name: 'MCSE'
     },
     {
         id:6,
         imgUrl: require('../../images/courses/node-js.jpg'),
-        type:'software development'
+        type:'software development',
+        name: 'Node'
     },
     {
         id:7,
         imgUrl: require('../../images/courses/aws.jpg'),
-        type:'cloud computing'
+        type:'cloud computing',
+        name: 'AWS'
     },
     {
         id:8,
         imgUrl: require('../../images/courses/cloud-computing.png'),
-        type:'cloud computing'
+        type:'cloud computing',
+        name: 'Cloud Computing'
     },
     {
         id:9,

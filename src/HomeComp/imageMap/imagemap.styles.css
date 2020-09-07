@@ -1,3 +1,7 @@
+*{
+    text-decoration: none;
+}
+
 .image-map {
     width: 85vw;
     margin: 0 auto;
@@ -45,7 +49,7 @@
     opacity: 1;
 }
   
-.text {
+.read-more {
     background-color: #50bae4;
     color: white;
     font-size: 16px;
@@ -53,6 +57,20 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     border-bottom: 3px solid blue;
+}
+
+@media only screen and (max-width: 992px) {
+    .image-map {
+        width: 85vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        margin: auto;
+    }
+
+    .course-image {
+        width: 40vw;
+    }
 }
 
 @media only screen and (max-width: 600px) {

@@ -11,7 +11,12 @@ function EnquiryBox() {
   }
 
   useEffect(() => {
-    setTimeout(() => setQuery(),2000) 
+    setTimeout(() => setQuery(),5000)
+
+    return () => {
+      clearTimeout()
+    }
+
   }, [])
 
   return (

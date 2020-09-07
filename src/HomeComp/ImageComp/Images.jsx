@@ -12,41 +12,22 @@ import './images.styles.css';
 import { Carousel } from 'react-responsive-carousel';
 
 function Images() {
-
-    const tooglesGroupId = 'Toggles';
+    
     const getConfigurableProps = () => ({
-        infiniteLoop: ('infiniteLoop', true, tooglesGroupId)
+        infiniteLoop: ('infiniteLoop', true, 'Toggles')
     })
 
     return (
         <Carousel autoPlay className='imageholder' {...getConfigurableProps()}>
-            <div>
                 <img src={one} alt="Ksoft" className='images'/>
-            </div>
-            <div>
                 <img src={two} alt="Ksoft" className='images'/>
-            </div>
-            <div>
                 <img src={three} alt="Ksoft" className='images'/>
-            </div>
-            <div>
                 <img src={four} alt="Ksoft" className='images'/>
-            </div>
-            <div>
                 <img src={five} alt="Ksoft" className='images'/>
-            </div>
-            <div>
                 <img src={six} alt="Ksoft" className='images'/>
-            </div>
-            <div>
                 <img src={seven} alt="Ksoft" className='images'/>
-            </div>
-            <div>
                 <img src={eight} alt="Ksoft" className='images'/>
-            </div>
-            <div>
-                <img src={nine} alt="Ksoft" className='images'/>
-            </div>            
+                <img src={nine} alt="Ksoft" className='images'/>    
         </Carousel>
     )
 }
