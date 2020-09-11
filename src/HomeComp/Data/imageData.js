@@ -1,3 +1,5 @@
+import training from './training/training.js';
+
 const data = [
     {
         id:1,
@@ -82,11 +84,7 @@ const data = [
         imgUrl: require('../../images/courses/cisco.png'),
         type:'networking'
     },
-    {
-        id:17,
-        imgUrl: require('../../images/courses/industrial-training.png'),
-        type:'industrial training'
-    },
+    training,
     {
         id:18,
         imgUrl: require('../../images/courses/AI.jpg'),
@@ -132,11 +130,13 @@ const data = [
         imgUrl: require('../../images/courses/digital-marketing.jpg'),
         type:'bfsi'
     },
-    {
-        id:27,
-        imgUrl: require('../../images/courses/training.jpg'),
-        type:'industrial training'
-    }
+    // {
+    //     id:17,
+    //     imgUrl: require('../../images/courses/training.jpg'),
+    //     type:'industrial training',
+    //     name: 'Live Project Training',
+    //     content:''
+    // }
 ]
 
 export default data;

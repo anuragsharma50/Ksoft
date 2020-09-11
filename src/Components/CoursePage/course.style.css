@@ -1,0 +1,43 @@
+.course {
+    margin: auto;
+    width: 95vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.course-heading {
+    font-size: 32px;
+    text-align: center;
+}
+
+.course-specific-image {
+    width: 60vw;
+}
+
+.course-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px
+}
+
+.course-body-content {
+    width: 70vw;
+} 
+
+.course-body-content-p {
+    text-align: left;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .course-specific-image {
+        width: 95vw;
+    }
+
+    .course-body {
+        grid-template-columns: 1fr;
+    }
+
+    .course-body-content {
+        width: 95vw;
+    }
+}

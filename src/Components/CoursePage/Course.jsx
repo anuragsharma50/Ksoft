@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react';
-
 import Data from '../../HomeComp/Data/imageData';
+import './course.style.css'
 
 function Course({match}) {
 
@@ -23,9 +23,21 @@ function Course({match}) {
     
 
     return (
-        <div>
-            <h2>{data[index].name}</h2>
-            <img src={data[index].imgUrl} alt=""/>
+        <div className='course'> 
+            <div className='course-body'>
+                <div className='course-body-content'>
+                <h2 className='course-heading'>{data[index].name}</h2>
+                <img className='course-specific-image' src={data[index].imgUrl} alt=""/>
+                {
+                    data[index].content && data[index].content.map((line,index) => <p className='course-body-content-p' key={index}>{line}</p>
+                    )
+                }
+                </div>
+                <div>
+                    Hello
+                </div>
+
+            </div>
         </div>
     )
 }

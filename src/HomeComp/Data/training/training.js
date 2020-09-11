@@ -1,0 +1,16 @@
+const training = {
+    id:17,
+    imgUrl: require('../../../images/courses/training.jpg'),
+    type:'industrial training',
+    name: 'Live Project Training',
+    content: ['KSOFT aces in extending job-oriented training to the students who are undergoing or completed MCA, B.tech, BCA, Polytechnic, Diploma and from other IT backgrounds. We cater placement inductive/ job assistance/ industrial training and internships exercises for students in Noida, Delhi and entire NCR. We offer hands-on learning with six months project based industrial training to enable genuine industry know-how.',
+            'We provide 6 months industrial training in Noida with the training modules carefully designed by the proficient industry experts. We extend training in ASP.Net 4.5, Java/J2ee, PHP 5.5, SEO, Cloud computing, Networking A+, Big data Hadoop and other latest technologies as per the ongoing industrial patterns.',
+            'KSOFT offers an extraordinary professional learning experience to get real-world work exposure and enhances employment opportunities. Our specialized industrial training covers extensive knowledge along with the practical skills to gain first-hand experience and exposure of working with the industrial leaders. This industrial training empowers learners to use technological skills and develop expertise in problem-solving. Here the candidates participate in hands-on learning to enhance the skills in regards to their career aspirations.',
+            'Our 6 months industrial training programs serves to the requirements of students from IT and CS backdrops to build cutting edge technology competency for the popular technologies such as Digital Marketing, Android, IOS, CCNA, Linux, MCSE, Ethical hacking, embedded, robotics and many more. We focus on delivering sterling learning exposure by training students in world-class infrastructure comprising of high-tech labs and classrooms equipped with the latest technologies. KSOFT, as an industrial training company strives to instill skills to prepare candidates to become job-ready and ready to start kickoff career in the relevant field.',
+            'This six months training can be a turning point for students as they learn the work ethics, immediate experience of corporate culture and work closely with the industry experts. In addition to the job-oriented industrial training, we provide complete placement assistance students for grasping ideal job opportunities.',
+            'KSOFT is the Best 6 months industrial training provider in Noida with more than 28 years of experience. We recognize the current industry practices and equip students with the required skills with the practical learning approach. The hands-on learning projects work in favor to gain enhanced knowledge for becoming industry-ready. We collaborate with the successful and experienced industry leaders to endure high-level learning. Our aim is to provide skillful and well-learned professional workforce that contributes to the development of the economy. Our accredited certification is recognized internationally and helps students to land in their dream jobs.',
+
+]
+}
+
+export default training;
