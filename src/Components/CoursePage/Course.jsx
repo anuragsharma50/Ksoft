@@ -24,10 +24,11 @@ function Course({match}) {
 
     return (
         <div className='course'> 
+            <h2 className='course-heading'>{data[index].name}</h2>
+            <img className='course-specific-image' src={data[index].imgUrl} alt=""/>
             <div className='course-body'>
                 <div className='course-body-content'>
-                <h2 className='course-heading'>{data[index].name}</h2>
-                <img className='course-specific-image' src={data[index].imgUrl} alt=""/>
+                
                 {
                     data[index].content && data[index].content.map((line,index) => <p className='course-body-content-p' key={index}>{line}</p>
                     )
