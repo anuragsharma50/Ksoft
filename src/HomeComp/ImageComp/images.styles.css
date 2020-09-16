@@ -1,9 +1,9 @@
 .imageholder{
-  width: 98%;
+  width: 100%;
   overflow: hidden;
   height: 75vh;
   position: relative;
-  margin: 2px auto;
+  margin: auto;
   margin-bottom: 10px;
 }
 

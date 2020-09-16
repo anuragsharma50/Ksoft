@@ -1,4 +1,6 @@
 .App {
   text-align: center;
   overflow-x: hidden;
+  background: url(./images/background.jpg);
+  background-size: 100%; 
 }

@@ -2,17 +2,17 @@
     width: 90%;
     margin: auto;
     font-size: 11px;
+    background-color: #d6d2d2
 }
 
 .toggler-main-heading{
-    background-color: rgb(214, 210, 210);
     padding: 10px 20px 0px 20px ;
     text-align: left;
-    color: rgb(51, 50, 50);
+    color: #5bbaca;
     height: 28px; 
     border-top: 1px solid rgb(214, 210, 210);
     cursor: pointer;
-    user-select: none;
+    /* user-select: none; */
 }
 
 .toggler-icon{
@@ -28,7 +28,7 @@
 
 .toggle-content {
     font-size: 14px;
-    color: rgb(141, 140, 140);
+    color: #313131;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 100;
 }
@@ -37,4 +37,16 @@
     width: 30%;
     float: left;
     margin: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .toggler-main-heading{
+        padding: 10px 20px 0px 20px ;
+        height: 28px; 
+        border-top: 1px solid rgb(214, 210, 210);
+    }
+
+    .toggler-icon{
+        bottom: 30px;
+    }
 }

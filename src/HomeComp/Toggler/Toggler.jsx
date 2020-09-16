@@ -12,7 +12,7 @@ function Toggler({name,contentHeading,content,show,img}) {
     let bgcolor = '#ffffff';
 
     if(open){
-        bgcolor = 'rgb(214, 210, 210)';
+        bgcolor = '#3f3e3e';
     }
 
     return (
