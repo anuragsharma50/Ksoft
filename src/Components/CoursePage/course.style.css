@@ -7,6 +7,7 @@
 .course-heading {
     font-size: 32px;
     text-align: center;
+    border-bottom: 3px solid rgb(50, 214, 235);
 }
 
 .course-specific-image {
@@ -19,11 +20,17 @@
     grid-gap: 10px
 }
 
-.course-body-content {
+.course-body-content-image {
     width: 70vw;
+}
+
+.course-body-content {
+    background-color: #d6d2d2;
+    padding: 0px 10px;
+    margin: 10px auto;
 } 
 
-.course-body-content-p {
+.course-body-content p{
     text-align: left;
 }
 
@@ -38,6 +45,7 @@
     }
 
     .course-body-content {
-        width: 95vw;
+        width: 90vw;
+        padding: 0px 5px;
     }
 }

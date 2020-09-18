@@ -7,6 +7,7 @@ import Course from './Components/CoursePage/Course';
 import Mail from './HomeComp/Mail/Mail';
 import Call from './HomeComp/Call/Call';
 import EnquiryBox from './HomeComp/EnquiryBox/EnquiryBox';
+import ContactUs from './Components/ContactUs/ContactUs';
 
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 
@@ -18,6 +19,7 @@ function App() {
         <Header />
         <Switch>
           <Route path='/' exact component={Home}/>
+          <Route path='/contact' exact component={ContactUs}/>
           <Route path='/:courseName' component={Course} />
         </Switch>
         <Footer />

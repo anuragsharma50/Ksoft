@@ -68,13 +68,15 @@ function Header() {
                         <Link to='/'>
                             <h2 className='text-heading'>Home</h2>
                         </Link>
-                    <h2 className='text-heading'>About Us</h2>
-                    <h2 className='text-heading'>Courses</h2>
-                    <h2 className='text-heading'>Industrial Training</h2>
-                    <h2 className='text-heading'>Placement</h2>
-                    <h2 className='text-heading'>Student Reviews</h2>
-                    <h2 className='text-heading'>Certificate</h2>
-                    <h2 className='text-heading'>Contact us</h2>
+                        <h2 className='text-heading'>About Us</h2>
+                        <h2 className='text-heading'>Courses</h2>
+                        <h2 className='text-heading'>Industrial Training</h2>
+                        <h2 className='text-heading'>Placement</h2>
+                        <h2 className='text-heading'>Student Reviews</h2>
+                        <h2 className='text-heading'>Certificate</h2>
+                        <Link to='/contact'>
+                            <h2 className='text-heading'>Contact us</h2>
+                        </Link>
                     </div>
                 }
             </div>
