@@ -1,23 +1,14 @@
-import React,{useState,useEffect} from 'react';
+import React,{useState} from 'react';
 import Enquiry from '../Enquiry/Enquiry';
 import './enquirybox.styles.css';
 
 function EnquiryBox() {
 
-  const [visiblequery,setVisiblequery] = useState(false)
+  const [visiblequery] = useState(false)
 
   const setQuery = () => {
-    setVisiblequery(!visiblequery)
+    window.location.assign('https://forms.gle/YSVy3ENdksbPxT7A8');
 }
-
-  useEffect(() => {
-    setTimeout(() => setQuery(),5000)
-
-    return () => {
-      clearTimeout()
-    }
-
-  }, [])
 
   return (
     <div>
