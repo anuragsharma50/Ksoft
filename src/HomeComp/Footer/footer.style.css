@@ -6,6 +6,10 @@
     padding: 20px 8vw;
 }
 
+p {
+    font-size: 16px;
+}
+
 .footer-about-icons {
     margin: 5px;
     float: left;
