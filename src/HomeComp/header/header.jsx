@@ -42,9 +42,9 @@ function Header() {
                 </div>
 
                 <div className='contact'>
-                <img src={gmail} alt="gmail" className='gmail'/>
-                <h2 className='heading-text'>Email</h2>
-                <p className='heading-data'>ksoft@gmail.com</p>
+                    <img src={gmail} alt="gmail" className='gmail'/>
+                    <h2 className='heading-text'>Email</h2>
+                    <p className='heading-data'>ksoft@gmail.com</p>
                 </div>
 
                 <div className='icons'>
@@ -69,8 +69,12 @@ function Header() {
                             <h2 className='text-heading'>Home</h2>
                         </Link>
                         <h2 className='text-heading'>About Us</h2>
-                        <h2 className='text-heading'>Courses</h2>
-                        <h2 className='text-heading'>Industrial Training</h2>
+                        <Link to='/courses'>
+                            <h2 className='text-heading'>Courses</h2>
+                        </Link>
+                        <Link to='/Live Project Training'>
+                            <h2 className='text-heading'>Industrial Training</h2>
+                        </Link>
                         <h2 className='text-heading'>Placement</h2>
                         <h2 className='text-heading'>Student Reviews</h2>
                         <h2 className='text-heading'>Certificate</h2>

@@ -1,0 +1,41 @@
+.contact-us {
+    margin: auto;
+    width: 95vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact-details {
+    font-size: 20px;
+    background-color: rgba(235, 231, 231, 0.507);
+    width: 50vw;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+.contact-address-grid {
+    display: inline-block;
+}
+
+.contact-icon {
+    width: 35px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    margin: auto 10px;
+}
+
+@media only screen and (max-width:600px){
+    .contact-details {
+        font-size: 20px;
+        width: 80vw;
+        margin: 20px auto;
+        padding: 5px;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -37,7 +37,7 @@ function Course({match}) {
                 </div>
                 </div>
                 <div>
-                    Hello
+                    
                 </div>
 
             </div>

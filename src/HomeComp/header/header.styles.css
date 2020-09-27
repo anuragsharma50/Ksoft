@@ -47,7 +47,7 @@
     margin: 5px 2px;
     background-color: white;
     padding: 5px 10px;
-    font-size: 18px;
+    font-size: calc(1vw + 7px);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     cursor: pointer;
     margin-top: -12px;
@@ -84,22 +84,24 @@
 .phone{
     position: absolute;
     top: 22px;
-    left: 11.6vw;
+    left: calc(22px + 10vw);
     width: 25px;
 }
 
 .whatsapp{
     position: absolute;
     top: 22px;
-    left: 345px;
+    left: calc(215px + 10vw);
     width: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
 }
-
 
 .gmail{
     position: absolute;
     top: 20px;
-    left: 555px;
+    left: calc(420px + 10vw);
     width: 30px;
 }
 

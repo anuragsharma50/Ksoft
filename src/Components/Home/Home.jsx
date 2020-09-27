@@ -10,9 +10,7 @@ function Home() {
     <div>
       <Images />
       <Courses />
-      <Review />
-
-       
+      <Review />   
     </div>
   );
 }

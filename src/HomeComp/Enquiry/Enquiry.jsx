@@ -12,8 +12,13 @@ const initialValues = {
     message: '' 
 }
 
+// const scriptURL = 'https://script.google.com/macros/s/AKfycbxhqHizqq3gHZP8b0NLtHXCcZnkDvU33pOyJNUd3Mx8XWlMENQ/exec';
+
 const onSubmit = values => {
     console.log("Form Values",values)
+    // fetch(scriptURL, { method: 'POST', body: values})
+    //     .then(response => console.log('ho gaya'))
+    //     .catch(error => console.error('Error!', error.message))
 }
 
 const validationSchema = Yup.object({
