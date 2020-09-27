@@ -9,7 +9,7 @@ import Call from './HomeComp/Call/Call';
 import EnquiryBox from './HomeComp/EnquiryBox/EnquiryBox';
 import ContactUs from './Components/ContactUs/ContactUs';
 import Courses from './HomeComp/Courses/Courses';
-import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
+import {BrowserRouter as Router,Switch,Route,Redirect} from 'react-router-dom';
 
 function App() {
 
@@ -22,6 +22,7 @@ function App() {
           <Route path='/contact' exact component={ContactUs}/>
           <Route path='/courses' component={Courses} />
           <Route path='/:courseName' component={Course} />
+          <Redirect to='/' />
         </Switch>
         <Footer />
         <Mail />
