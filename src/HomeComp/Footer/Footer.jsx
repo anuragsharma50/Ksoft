@@ -47,7 +47,8 @@ function Footer() {
                     </div>
 
                     <div className='footer-contact-data'>
-                    <p>Head Office : D - Block, Sector -2, Noida Registered Office : C - Block, ZETA-1, Greater Noida</p>
+                    <p>Head Office : D - Block, Sector -2, Noida</p> 
+                    <p>Registered Office : C - Block, ZETA-1, Greater Noida</p>
                     <p>+91 9990 82 6002</p>
                     <p>info@ksoftindia.com</p>
                     </div>

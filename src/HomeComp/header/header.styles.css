@@ -71,28 +71,31 @@
 
 .linkedin{
     width: 25px;
+    width: 40px;
 }
 
 .fb{
     margin: 0px 20px;
+    width: 40px;
 }
 
 .twitter{
     width: 29px;
+    width: 37px;
 }
 
 .phone{
     position: absolute;
-    top: 22px;
-    left: calc(22px + 10vw);
-    width: 25px;
+    top: 20px;
+    left: calc(20px + 10vw);
+    width: 30px;
 }
 
 .whatsapp{
     position: absolute;
-    top: 22px;
-    left: calc(215px + 10vw);
-    width: 25px;
+    top: 20px;
+    left: calc(212px + 10vw);
+    width: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
@@ -154,7 +157,7 @@
     }
 
     .text-headings{
-        margin-top: -5vh;
+        margin-top: -8vh;
         position: relative;
         background-color: #265c99;
     }

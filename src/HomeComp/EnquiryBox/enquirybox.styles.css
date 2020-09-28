@@ -15,12 +15,25 @@
     cursor: pointer;
 }
 
+.enquiry-icon {
+  width: 22px;
+  position: absolute;
+  left: 20%;
+}
+
 @media only screen and (max-width: 600px) {
   .enquiry-box {
     left: 46.5vw;
-    width: 70px;
+    width: 80px;
     border: 2px solid rgb(71, 137, 212);
     font-size: 12px;
     padding: 3.5px;
+    padding-left: 28px;
+  }
+
+  .enquiry-icon {
+    left: 2px;
+    top: 1.2px;
   }
 }
+

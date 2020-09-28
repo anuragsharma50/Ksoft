@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import Data from '../../HomeComp/Data/imageData';
-import './course.style.css'
+import './course.style.css';
+import Courses from '../../HomeComp/Courses/Courses';
 
 function Course({match}) {
 
@@ -41,8 +42,12 @@ function Course({match}) {
                 </div>
 
             </div>
+            <div className='training-courses'>
+                <Courses />
+            </div>  
         </div>
     )
+    
 }
 
 export default React.memo(Course)

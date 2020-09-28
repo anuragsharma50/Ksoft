@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import Enquiry from '../Enquiry/Enquiry';
 import './enquirybox.styles.css';
+import EnquiryIcon from '../../icons/enquiry.png'
 
 function EnquiryBox() {
 
@@ -16,7 +17,9 @@ function EnquiryBox() {
         visiblequery && <Enquiry setQuery={setQuery}/>
       }
       {
-        !visiblequery && <button className='enquiry-box' onClick={() => setQuery()}>Enquiry</button>
+        !visiblequery && <button className='enquiry-box' onClick={() => setQuery()}>
+          <img src={EnquiryIcon} alt="icon" className='enquiry-icon'/>
+          Enquiry</button>
       } 
     </div>
   );

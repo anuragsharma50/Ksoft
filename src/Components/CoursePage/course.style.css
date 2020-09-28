@@ -48,4 +48,8 @@
         width: 90vw;
         padding: 0px 5px;
     }
+
+    .training-courses {
+        margin-left: -4vw;
+    }
 }

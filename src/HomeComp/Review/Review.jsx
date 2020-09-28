@@ -6,7 +6,7 @@ function Review() {
     return (
         <div className='review'>
             <About />
-            <h2 className='costumer'>What Costumer says</h2>
+            <div></div>
         </div>
     )
 }
