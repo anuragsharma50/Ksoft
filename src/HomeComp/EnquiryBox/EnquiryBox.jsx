@@ -1,20 +1,28 @@
-import React,{useState} from 'react';
-import Enquiry from '../Enquiry/Enquiry';
+import React,{useState,useEffect} from 'react';
+// import Enquiry from '../Enquiry/Enquiry';
 import './enquirybox.styles.css';
-import EnquiryIcon from '../../icons/enquiry.png'
+import EnquiryIcon from '../../icons/enquiry.png';
+import GoogleLink from '../GoogleLink/GoogleLink';
 
 function EnquiryBox() {
 
-  const [visiblequery] = useState(false)
+  const [visiblequery,setVisiblequery] = useState(false)
 
   const setQuery = () => {
-    window.location.assign('https://forms.gle/YSVy3ENdksbPxT7A8');
+    setVisiblequery(!visiblequery)
 }
+
+useEffect(() => {
+  setTimeout(() => setQuery(),5000)
+  return () => {
+    clearTimeout()
+  }
+}, [])
 
   return (
     <div>
       {
-        visiblequery && <Enquiry setQuery={setQuery}/>
+        visiblequery && <GoogleLink setQuery={setQuery}/>
       }
       {
         !visiblequery && <button className='enquiry-box' onClick={() => setQuery()}>
