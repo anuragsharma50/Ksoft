@@ -10,6 +10,7 @@ import EnquiryBox from './HomeComp/EnquiryBox/EnquiryBox';
 import ContactUs from './Components/ContactUs/ContactUs';
 import Courses from './HomeComp/Courses/Courses';
 import {BrowserRouter as Router,Switch,Route,Redirect} from 'react-router-dom';
+import About from './HomeComp/About/About';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           <Route path='/' exact component={Home}/>
           <Route path='/contact' exact component={ContactUs}/>
           <Route path='/courses' component={Courses} />
+          <Route path='/about' component={About} />
           <Route path='/:courseName' component={Course} />
           <Redirect to='/' />
         </Switch>

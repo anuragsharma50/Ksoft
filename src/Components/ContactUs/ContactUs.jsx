@@ -13,7 +13,8 @@ function ContactUs() {
             </h2>
             <div className='contact-details'>
                 <img className='contact-icon' src={Address} alt="address"/>
-                <p>Head Office : D - Block, Sector -2, Noida Registered Office : C - Block, ZETA-1, Greater Noida</p> 
+                <p>Head Office : D - Block, Sector -2, Noida</p>
+                <p>Registered Office : C - Block, ZETA-1, Greater Noida</p> 
                     <div className='contact-grid'>
                         <div>
                             <img className='contact-icon' src={Phone} alt="phone"/>

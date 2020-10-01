@@ -68,7 +68,9 @@ function Header() {
                         <Link to='/'>
                             <h2 className='text-heading'>Home</h2>
                         </Link>
-                        <h2 className='text-heading'>About Us</h2>
+                        <Link to='/about'>
+                            <h2 className='text-heading'>About Us</h2>
+                        </Link>
                         <Link to='/courses'>
                             <h2 className='text-heading'>Courses</h2>
                         </Link>
@@ -76,7 +78,6 @@ function Header() {
                             <h2 className='text-heading'>Industrial Training</h2>
                         </Link>
                         <h2 className='text-heading'>Placement</h2>
-                        <h2 className='text-heading'>Student Reviews</h2>
                         <h2 className='text-heading'>Certificate</h2>
                         <Link to='/contact'>
                             <h2 className='text-heading'>Contact us</h2>

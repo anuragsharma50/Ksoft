@@ -23,8 +23,10 @@
 
 @media only screen and (max-width: 600px) {
   .enquiry-box {
-    left: 46.5vw;
-    width: 80px;
+    transform: rotate(-90deg);
+    right: -40px;
+    bottom: 230px;
+    width: 100px;
     border: 2px solid rgb(71, 137, 212);
     font-size: 12px;
     padding: 3.5px;

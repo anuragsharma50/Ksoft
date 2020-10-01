@@ -1,12 +1,17 @@
 .review {
-    width: 85vw;
+    width: 95vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 30px;
+    margin: auto;
+    padding: 0px 10px;
 }
 
 @media only screen and (max-width: 600px) {
     .review {
+        width: 100vw;
         grid-template-columns: 1fr;
+        /* margin: auto; */
+        padding: 0px 0px;
     }
 }
