@@ -75,8 +75,6 @@
     .toggle-content {
         font-size: 14px;
         padding: 2px;
-        /* height: 115px;
-        letter-spacing: 0.4px; */
     }
 
     .about-image {
@@ -85,6 +83,10 @@
     }
 
     .toggle-list {
-        width: 100%;
+        width: 100%;      
     }    
+
+    .toggle-list-content {
+        color: #828282;
+    }
 }
