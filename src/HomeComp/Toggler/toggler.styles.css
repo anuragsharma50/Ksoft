@@ -41,9 +41,9 @@
 }
 
 .toggle-list {
-    width: 42%;
+    width: 45%;
     margin: auto;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .toggle-list-name{
@@ -74,7 +74,7 @@
 
     .toggle-content {
         font-size: 14px;
-        padding: 2px;
+        padding: 5px;
         color: #1a1a1a;
     }
 
