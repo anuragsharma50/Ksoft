@@ -9,17 +9,15 @@
     padding: 10px 20px 0px 20px ;
     text-align: left;
     color: #5bbaca;
-    height: 28px; 
+    height: 30px; 
     border-top: 1px solid rgb(214, 210, 210);
     cursor: pointer;
-    
-    /* user-select: none; */
 }
 
 .toggler-icon{
     text-align: end;
     position: relative;
-    bottom: 25px;
+    bottom: 30px;
     font-size: 25px;
 }
 
@@ -40,6 +38,22 @@
     width: 20%;
     float: left;
     margin: -5px 10px;
+}
+
+.toggle-list {
+    width: 50%;
+    margin: auto;
+}
+
+.toggle-list-name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.toggle-list-content {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #313131;
+    text-align: left;
+    padding-bottom: 10px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -68,4 +82,9 @@
         width: 28%;
         float: left;
     }
+
+    .toggle-list {
+        width: 100%;
+        font-size: 15px;
+    }    
 }

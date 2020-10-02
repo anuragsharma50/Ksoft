@@ -19,8 +19,17 @@ const aboutData = [
         id:3,
         name:'ABOUT US',
         contentHeading:"Our Delivery is all our country",
-        content:"KSOFT has specialization in 3 important domains namely: DEVELOPMENT, CONSULTANCY and TRAINING,. The company provides specialized training in 100+ leading technologies like Python, , Data Science, Cloud, AWS, Robotics, .NET, Java, PHP++, CCNA, AUTOCAD, RAVIT MT, MATLAB, EMBEDDED SYSTEM, Ethical Hacking, ANDROID, CCNP, MCSE, LINUX and many more.",
+        content: ["KSOFT SOFTWARE SOLUTIONS PVT LTD is a software company which deals in Development, Consultancy, H/W and Networking, Web Solutions  and IT Trainings.",
+                  "KSOFT SOFTWARE SOLUTIONS PVT LTD is a software company which deals in Development, Consultancy, H/W and Networking, Web Solutions  and IT Trainings.",
+                  "KSOFT has specialization in 3 important domains namely: DEVELOPMENT, CONSULTANCY and TRAINING,. The company provides specialized training in 100+ leading technologies like Python, , Data Science, Cloud, AWS, Robotics, .NET, Java, PHP++, CCNA, AUTOCAD, RAVIT MT, MATLAB, EMBEDDED SYSTEM, Ethical Hacking, ANDROID, CCNP, MCSE, LINUX  and many more. ",
+                  "KSOFT  has a very committed team consisting of Professional trainers who are continuously guiding, mentoring, admonish and coaching the students by providing them with exclusive personalized attention, which helps them to develop solid industry oriented knowledge.",
+                  "We offer an overall development program for the student that helps them to compete and grab the best jobs in the market. We build individuals with technology proficiency, integrity and professionalism."      
+    ],
         show:true,
+        listName: "What makes us the Industry Leader ?",
+        listContent: ["Quality of education","Overall development program","Experienced staff and trainers",
+                    "Instructor led campus","Major tie-ups with learning partners","Major tie-ups with learning partners",
+                    "Workshops and Placement Service","Dedicated Placement Cell"],
         img: require('../../images/about/about-us.jpg')
     }
 ];

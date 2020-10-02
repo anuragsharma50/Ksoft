@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import './toggler.styles.css';
 
-function Toggler({name,contentHeading,content,show,img}) {
+function Toggler({name,contentHeading,content,show,img,listName,listContent}) {
 
     const [open, setOpen] = useState(show)
 
@@ -31,7 +31,11 @@ function Toggler({name,contentHeading,content,show,img}) {
                 <div>
                 <img className='about-image' src={img} alt="{name}"/>
                 <h2 className="toggle-content-heading">{contentHeading}</h2>
-                <h3 className="toggle-content">{content}</h3>
+                { typeof(content) === 'string' ? <h3 className="toggle-content">{content}</h3> : <h3 className="toggle-content">{content.map(line => <p key={Math.floor(Math.random()*100)}>{line}</p>)}</h3>}
+                <div className='toggle-list'>
+                    { listName && <h2 className='toggle-list-name'>{listName}</h2> }
+                    { listContent && <ul className='toggle-list-content'>{listContent.map(content => <li>{content}</li>)}</ul> }
+                </div>
                 </div>
             }  
         </div>

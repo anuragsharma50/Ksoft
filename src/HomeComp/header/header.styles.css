@@ -66,7 +66,7 @@
 .icons{
     position: relative;
     top: 20px;
-    left: -15px;
+    left: -100px;
 }
 
 .linkedin{
@@ -111,6 +111,17 @@
 .pvt-ltd{
     visibility: hidden;
     position: absolute;
+}
+
+@media only screen and (max-width: 1000px) {
+    .icons{
+        left: -15px;
+    }
+
+    .heading-text {
+        font-size: 20px;
+        margin-top: 22px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
