@@ -1,8 +1,8 @@
 const training = {
-    id:17,
-    imgUrl: require('../../../images/courses/training.jpg'),
+    id:27,
+    imgUrl: require('../../../images/courses/6-m-industrial-training.jpeg'),
     type:'industrial training',
-    name: 'Live Project Training',
+    name: '6 Month Live Project Training',
     content: ['KSOFT aces in extending job-oriented training to the students who are undergoing or completed MCA, B.tech, BCA, Polytechnic, Diploma and from other IT backgrounds. We cater placement inductive/ job assistance/ industrial training and internships exercises for students in Noida, Delhi and entire NCR. We offer hands-on learning with six months project based industrial training to enable genuine industry know-how.',
             'We provide 6 months industrial training in Noida with the training modules carefully designed by the proficient industry experts. We extend training in ASP.Net 4.5, Java/J2ee, PHP 5.5, SEO, Cloud computing, Networking A+, Big data Hadoop and other latest technologies as per the ongoing industrial patterns.',
             'KSOFT offers an extraordinary professional learning experience to get real-world work exposure and enhances employment opportunities. Our specialized industrial training covers extensive knowledge along with the practical skills to gain first-hand experience and exposure of working with the industrial leaders. This industrial training empowers learners to use technological skills and develop expertise in problem-solving. Here the candidates participate in hands-on learning to enhance the skills in regards to their career aspirations.',

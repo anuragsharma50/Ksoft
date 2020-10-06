@@ -1,0 +1,12 @@
+const training4w = {
+    id:17,
+    imgUrl: require('../../../images/courses/6-w-industrial-training.jpeg'),
+    type:'industrial training',
+    name: '6Weeks Live Project Training',
+    content: ['KSOFT India Courses provide a powerful training tool that can be used directly where training is required, e.g., in the classroom, at the plant, in the office. It offers all the important content in the appropriate context, comprehensive assessments, and the latest tools to evaluate performance. With seamless integration into Mind-Sight, the KSOFT Courses provide a multitude of ways to fulfill Summer Training needs.',
+            'Project Based Summer Training is conducted by KSOFT India with a range of courses to be delivered across number of locations. The programs usually conducted twice a year, beginning in the month of January and July. The duration of the program varies from 4 to 6 months depending on student needs and qualified partner professionals are engaged to deliver the program and guide the trainees throughout the program. There are around 50-60 participants in a batch with a good student-trainer ratio for effective learning. Upon completion of the program, training certificate and project letter will be provided to successful students.',
+            'KSOFT is providing great opportunities in the growing field to the students. We have best career boosting options for the learners. At KSOFT we provide training to the BCA, Bsc. IT, B.tech and MCA students which are required to get engage in the large software, web development and internet marketing companies. It has been observed that after completing education from the colleges with very good percentage, it becomes difficult for the fresher to get a suitable job. It is not their fault; however in colleges they don’t get chance to learn job oriented education. We are here to make them efficient so that it became easy for them to get job in any required field in the IT industry. We focus to give best training sessions to the students that help them in their skill enhancement. We provide different training courses to our employees that include complete teaching sessions and live projects handling experience. It helps them to enhance their basic as well as practical knowledge. We also provide job opportunities to our trainees if they learn and grow with our training programs.',
+]
+}
+
+export default training4w;

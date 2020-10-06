@@ -1,4 +1,6 @@
 import training from './training/training.js';
+import training6w from './training/training6w';
+import training4w from './training/training4w';
 
 const data = [
     {
@@ -84,6 +86,8 @@ const data = [
         imgUrl: require('../../images/courses/cisco.png'),
         type:'networking'
     },
+    training4w,
+    training6w,
     training,
     {
         id:18,
@@ -130,13 +134,6 @@ const data = [
         imgUrl: require('../../images/courses/digital-marketing.jpg'),
         type:'bfsi'
     },
-    // {
-    //     id:17,
-    //     imgUrl: require('../../images/courses/training.jpg'),
-    //     type:'industrial training',
-    //     name: 'Live Project Training',
-    //     content:''
-    // }
 ]
 
 export default data;
