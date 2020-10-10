@@ -1,6 +1,6 @@
 const training4w = {
     id:17,
-    imgUrl: require('../../../images/courses/6-w-industrial-training.jpeg'),
+    imgUrl: require('../../../images/courses/6w.png'),
     type:'industrial training',
     name: '6Weeks Live Project Training',
     content: ['KSOFT India Courses provide a powerful training tool that can be used directly where training is required, e.g., in the classroom, at the plant, in the office. It offers all the important content in the appropriate context, comprehensive assessments, and the latest tools to evaluate performance. With seamless integration into Mind-Sight, the KSOFT Courses provide a multitude of ways to fulfill Summer Training needs.',
