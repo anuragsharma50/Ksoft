@@ -2,13 +2,11 @@ import training from './training/training.js';
 import training6w from './training/training6w';
 import training4w from './training/training4w';
 
+import androidData from './software-development/android-data';
+import pythonData from './software-development/python-data';
+
 const data = [
-    {
-        id:1,
-        imgUrl: require('../../images/courses/android.jpg'),
-        type:'software development',
-        name: 'Android'
-    },
+    androidData,
     {
         id:2,
         imgUrl: require('../../images/courses/angular-js.jpg'),
@@ -21,12 +19,7 @@ const data = [
         type:'software development',
         name: 'PHP'
     },
-    {
-        id:4,
-        imgUrl: require('../../images/courses/python.png'),
-        type:'software development',
-        name: 'Python'
-    },
+    pythonData,
     {
         id:5,
         imgUrl: require('../../images/courses/mcse.jpg'),
