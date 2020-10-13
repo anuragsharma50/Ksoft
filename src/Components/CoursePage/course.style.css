@@ -7,6 +7,7 @@
 .course-heading {
     font-size: 32px;
     text-align: center;
+    padding-bottom: 5px;
     border-bottom: 3px solid rgb(50, 214, 235);
 }
 

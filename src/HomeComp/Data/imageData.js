@@ -4,21 +4,14 @@ import training4w from './training/training4w';
 
 import androidData from './software-development/android-data';
 import pythonData from './software-development/python-data';
+import phpData from './software-development/php-data';
+import angularData from './software-development/angular-data';
+import nodeData from './software-development/node-data';
 
 const data = [
     androidData,
-    {
-        id:2,
-        imgUrl: require('../../images/courses/angular-js.jpg'),
-        type:'software development',
-        name: 'Angular'
-    },
-    {
-        id:3,
-        imgUrl: require('../../images/courses/php.jpg'),
-        type:'software development',
-        name: 'PHP'
-    },
+    angularData,
+    phpData,
     pythonData,
     {
         id:5,
@@ -26,12 +19,7 @@ const data = [
         type:'networking',
         name: 'MCSE'
     },
-    {
-        id:6,
-        imgUrl: require('../../images/courses/node-js.jpg'),
-        type:'software development',
-        name: 'Node'
-    },
+    nodeData,
     {
         id:7,
         imgUrl: require('../../images/courses/aws.jpg'),
@@ -47,7 +35,8 @@ const data = [
     {
         id:9,
         imgUrl: require('../../images/courses/dot-net.jpg'),
-        type:'software development'
+        type:'software development',
+        name:'dot-net'
     },
     {
         id:10,

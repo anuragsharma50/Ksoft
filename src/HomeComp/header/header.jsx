@@ -74,7 +74,7 @@ function Header() {
                         <Link to='/courses'>
                             <h2 className='text-heading'>Courses</h2>
                         </Link>
-                        <Link to='/Live Project Training'>
+                        <Link to='/6 Month Live Project Training'>
                             <h2 className='text-heading'>Industrial Training</h2>
                         </Link>
                         <h2 className='text-heading'>Placement</h2>
