@@ -3,7 +3,7 @@ import WhatsappIcon from '../../icons/whatsapp.png';
 import './whatsapp.style.css';
 
 const openWhatsapp = () => {
-    window.location.assign('https://web.whatsapp.com/send?phone=919990826002');
+    window.location.assign('https://wa.me/919990826002');
 }
 
 function Whatsapp() {
