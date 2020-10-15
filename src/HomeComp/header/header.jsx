@@ -22,10 +22,14 @@ function Header() {
         setMenu(!menu)
     }
 
+    const openWhatsapp = () => {
+        window.location.assign('https://web.whatsapp.com/send?phone=919990826002');
+    }
+
     return (
         <div className='header'>
             <Link to='/'>
-                <img src={logo} alt="Ksoft" className='logo'/>
+                <img src={logo} alt="Ksoft" className='logo' />
             </Link>
 
             <div className='contacts'>
@@ -35,8 +39,8 @@ function Header() {
                 <p className='heading-data'>+91 9990826002</p>
                 </div>
 
-                <div className='contact'>
-                <img src={whatsapp} alt="whatsapp" className='whatsapp'/>
+                <div className='contact' onClick={() => openWhatsapp()}>
+                <img src={whatsapp} alt="whatsapp" className='whatsapp' />
                 <h2 className='heading-text'>Whatsapp</h2>
                 <p className='heading-data'>+91 9990826002</p>
                 </div>

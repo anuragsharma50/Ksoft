@@ -11,6 +11,7 @@ import ContactUs from './Components/ContactUs/ContactUs';
 import Courses from './HomeComp/Courses/Courses';
 import {BrowserRouter as Router,Switch,Route,Redirect} from 'react-router-dom';
 import About from './HomeComp/About/About';
+import Whatsapp from './HomeComp/Whatsapp/Whatsapp';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
         <Mail />
         <Call />
         <EnquiryBox />
+        <Whatsapp />
       </Router>
     </div>
   );
