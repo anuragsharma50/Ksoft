@@ -1,0 +1,48 @@
+.offer{
+    color: white;
+    background-color: rgba(0, 0, 0,0.5);
+    margin: 10px;
+    padding: 10px;
+}
+
+.animate{
+    position: absolute;
+    width: 98%;
+}
+
+.animate-h1 {
+    color: #ff4e4e;
+    animation: size infinite 5s;
+}
+
+.offer-text{
+    margin-top: 80px;
+}
+
+@keyframes size{
+    0%{
+        font-size: 24px;
+    }
+
+    50%{
+        font-size: 36px;
+    }
+
+    100%{
+        font-size: 24px;
+    }
+}
+
+.offer-button {
+    width: 140px;
+    height: 70px;
+    font-size: 24px;
+    background-color: #265c99;
+    color: skyblue;
+    font-weight: 500;
+    border: none;
+}
+
+.offer-button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

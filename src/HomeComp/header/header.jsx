@@ -12,7 +12,8 @@ import phone from '../../icons/phone.png';
 import gmail from '../../icons/gmail.png';
 import menuIcon from  '../../icons/menu.png';
 
-import KSOFT from '../../images/Header-image.jpg';
+import KSOFT from '../../images/Header/Header-image.jpg';
+import Offer from '../../images/Header/diwali-offer.jpg';
 
 function Header() {
 
@@ -60,6 +61,12 @@ function Header() {
 
             <div className='pvt-ltd'>
                 <img className='header-image' src={KSOFT} alt="Ksoft Solutions"/>
+            </div>
+
+            <div className='header-offer'>
+                <Link to='/Festival-offer'>
+                    <img className='offer-image' src={Offer} alt="Festival Offer"/>
+                </Link>
             </div>
 
             <div className='headings'>

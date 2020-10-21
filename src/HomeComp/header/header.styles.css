@@ -113,6 +113,13 @@
     position: absolute;
 }
 
+.offer-image {
+    width: 140px;
+    position: absolute;
+    right: calc(50px + 1vw);
+    top: 10px;
+}
+
 @media only screen and (max-width: 1000px) {
     .icons{
         left: -15px;
@@ -204,5 +211,9 @@
     .header-image{
         width: 60vw;
         height: 10vh;
+    }
+
+    .offer-image {
+        display: none;
     }
 }

@@ -12,6 +12,7 @@ import Courses from './HomeComp/Courses/Courses';
 import {BrowserRouter as Router,Switch,Route,Redirect} from 'react-router-dom';
 import About from './HomeComp/About/About';
 import Whatsapp from './HomeComp/Whatsapp/Whatsapp';
+import Offer from './Components/Offer/Offer';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
           <Route path='/contact' exact component={ContactUs}/>
           <Route path='/courses' component={Courses} />
           <Route path='/about' component={About} />
+          <Route path='/Festival-offer' component={Offer} />
           <Route path='/:courseName' component={Course} />
           <Redirect to='/' />
         </Switch>
