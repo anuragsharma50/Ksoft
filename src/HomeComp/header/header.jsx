@@ -18,6 +18,7 @@ import Offer from '../../images/Header/diwali-offer.jpg';
 function Header() {
 
     const [menu, setMenu] = useState(true)
+    const [offer,setOffer] = useState(true)
 
     const changeMenu = () => {
         setMenu(!menu)
@@ -64,9 +65,15 @@ function Header() {
             </div>
 
             <div className='header-offer'>
-                <Link to='/Festival-offer'>
-                    <img className='offer-image' src={Offer} alt="Festival Offer"/>
-                </Link>
+                {/* <Link to='/Festival-offer'> */}
+                    { offer && <img className='offer-image' src={Offer} alt="Festival Offer" onClick={() => setOffer(!offer)}/> }
+                    
+                {/* </Link> */}
+                { !offer && 
+                    <div className='offer-text-header'><h3>Congratulation!!!</h3> 
+                    <h4>You have Won Flat 50% off on all the Courses</h4> 
+                    <button>Apply Now</button></div>
+                }
             </div>
 
             <div className='headings'>

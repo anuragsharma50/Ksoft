@@ -25,7 +25,7 @@ function App() {
           <Route path='/contact' exact component={ContactUs}/>
           <Route path='/courses' component={Courses} />
           <Route path='/about' component={About} />
-          <Route path='/Festival-offer' component={Offer} />
+          {/* <Route path='/Festival-offer' component={Offer} /> */}
           <Route path='/:courseName' component={Course} />
           <Redirect to='/' />
         </Switch>

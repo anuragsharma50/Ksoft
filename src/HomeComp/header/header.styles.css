@@ -113,11 +113,18 @@
     position: absolute;
 }
 
-.offer-image {
-    width: 140px;
+.header-offer{
+    width: 180px;
     position: absolute;
-    right: calc(50px + 1vw);
+    right: calc(50px + 2vw);
     top: 10px;
+    background-color: white;
+}
+
+.offer-image {
+    width: 180px;
+    position: absolute;
+    right: 0px;  
 }
 
 @media only screen and (max-width: 1000px) {
@@ -214,6 +221,15 @@
     }
 
     .offer-image {
+        z-index: 2;
+        position: fixed;
+        bottom: 0px;
+        top: 80vh;
+        width: 100px;
+        left: 10px;
+    }
+
+    .offer-text-header{
         display: none;
     }
 }

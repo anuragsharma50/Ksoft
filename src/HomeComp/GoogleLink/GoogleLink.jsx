@@ -2,7 +2,8 @@ import React from 'react';
 import './google-link.styles.css';
 
 const openForm = () => {
-    window.location.assign('https://forms.gle/YSVy3ENdksbPxT7A8');
+    // window.location.assign('https://forms.gle/YSVy3ENdksbPxT7A8');
+    window.open("https://forms.gle/YSVy3ENdksbPxT7A8", "_blank")
 }
 
 const GoogleLink = ({setQuery}) => {  
