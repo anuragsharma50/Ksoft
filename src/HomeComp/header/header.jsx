@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useState,useEffect} from 'react';
 import logo from '../../images/logo.jpg';
 import './header.styles.css';
 
@@ -19,6 +19,17 @@ function Header() {
 
     const [menu, setMenu] = useState(true)
     const [offer,setOffer] = useState(true)
+    const [discount, setDiscount] = useState(0)
+    const [offerClass, setOfferClass] = useState('header-offer  undo-offer-effect')
+
+    useEffect(() => {
+        if(Math.random() > 0.5){
+            setDiscount(50)
+        }
+        else{
+            setDiscount(30)
+        }
+    }, [])
 
     const changeMenu = () => {
         setMenu(!menu)
@@ -26,6 +37,20 @@ function Header() {
 
     const openWhatsapp = () => {
         window.location.assign('https://web.whatsapp.com/send?phone=919990826002');
+    }
+
+    const openForm = () => {
+        window.open("https://forms.gle/YSVy3ENdksbPxT7A8", "_blank")
+    }
+
+    const offerEffect = () => {
+        setOffer(!offer)
+        setOfferClass('header-offer')
+    }
+
+    const undoOfferEffect = () => {
+        setOffer(!offer)
+        setOfferClass('header-offer undo-offer-effect')
     }
 
     return (
@@ -64,15 +89,17 @@ function Header() {
                 <img className='header-image' src={KSOFT} alt="Ksoft Solutions"/>
             </div>
 
-            <div className='header-offer'>
-                {/* <Link to='/Festival-offer'> */}
-                    { offer && <img className='offer-image' src={Offer} alt="Festival Offer" onClick={() => setOffer(!offer)}/> }
-                    
-                {/* </Link> */}
+            <div className={offerClass}>
+                { offer && <img className='offer-image' src={Offer} alt="Festival Offer" onClick={() => offerEffect()}/> }
+
                 { !offer && 
-                    <div className='offer-text-header'><h3>Congratulation!!!</h3> 
-                    <h4>You have Won Flat 50% off on all the Courses</h4> 
-                    <button>Apply Now</button></div>
+                    <div className='offer-text-header'>
+                        <button onClick={() => undoOfferEffect()} className='offer-close'>X</button>
+                        <h3>Congratulation!!!</h3> 
+                        <h5>You have Won Flat {discount}% off on all the Courses</h5> 
+                        <h4 className='promo'>PromoCode - KSOFT{discount}</h4>
+                        <button className='offer-button' onClick={() => openForm()}>Apply Now</button>
+                    </div>
                 }
             </div>
 

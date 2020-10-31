@@ -114,11 +114,47 @@
 }
 
 .header-offer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
     width: 180px;
     position: absolute;
     right: calc(50px + 2vw);
     top: 10px;
     background-color: white;
+    z-index: 2;
+}
+
+.header-offer h3{
+    margin: 5px;
+    color: red;
+}
+
+.header-offer h5{
+    margin: 10px;
+}
+
+.offer-button {
+    margin: 8px;
+    border: none;
+    background-color: #2ad4f1;
+    font-size: 14px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.offer-close {
+    border: none;
+    position: absolute;
+    right: 0px;
+    background: none;
+    top: 0px;
+    padding: 0px 3px;
+    cursor: pointer;
+}
+
+.offer-button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;  
 }
 
 .offer-image {
@@ -127,9 +163,16 @@
     right: 0px;  
 }
 
+.promo {
+    font-size: 15px;
+    border: 2px solid #265c99;
+    background: linear-gradient(90deg, #265c99 55%, #FFF 50%);
+    margin: 0px 5px;
+}
+
 @media only screen and (max-width: 1000px) {
     .icons{
-        left: -15px;
+        display: none;
     }
 
     .heading-text {
@@ -229,7 +272,47 @@
         left: 10px;
     }
 
+    .header-offer{
+        top: 0vh;
+        width: 57vh;
+        height: 100vh;
+        left: 0px;
+        background: transparent;
+            background-color: transparent;
+        background-blend-mode: multiply;
+        background-color: rgba(0,0,0,0.5);
+        position: fixed;
+    }
+
     .offer-text-header{
-        display: none;
+        background: white;
+        width: 80vw;
+        top: 40vh;
+        position: fixed;
+        left: 10vw;
+    }
+    
+    .header-offer h3{
+        margin: 10px;
+        font-size: 22px;
+    }
+    
+    .header-offer h5{
+        margin: 15px 25px;
+    }
+
+    .promo {
+        font-size: 16px;
+        margin: 2px 20px;
+    }
+    
+    .offer-button {
+        margin: 10px;
+        font-size: 15px;
+        padding: 7px;
+    }
+
+    .undo-offer-effect{
+        width: 0px;
     }
 }

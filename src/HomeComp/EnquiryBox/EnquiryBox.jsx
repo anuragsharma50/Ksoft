@@ -1,5 +1,4 @@
 import React,{useState,useEffect} from 'react';
-// import Enquiry from '../Enquiry/Enquiry';
 import './enquirybox.styles.css';
 import EnquiryIcon from '../../icons/enquiry.png';
 import GoogleLink from '../GoogleLink/GoogleLink';
