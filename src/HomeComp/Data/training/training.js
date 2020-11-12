@@ -1,6 +1,6 @@
 const training = {
     id:27,
-    imgUrl: require('../../../images/courses/6m.png'),
+    imgUrl: require('../../../images/courses/6m.jpg'),
     type:'industrial training',
     name: '6 Month Live Project Training',
     content: ['KSOFT aces in extending job-oriented training to the students who are undergoing or completed MCA, B.tech, BCA, Polytechnic, Diploma and from other IT backgrounds. We cater placement inductive/ job assistance/ industrial training and internships exercises for students in Noida, Delhi and entire NCR. We offer hands-on learning with six months project based industrial training to enable genuine industry know-how.',

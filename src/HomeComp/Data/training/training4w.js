@@ -1,6 +1,6 @@
 const training = {
     id:27,
-    imgUrl: require('../../../images/courses/4w.png'),
+    imgUrl: require('../../../images/courses/4w.jpg'),
     type:'industrial training',
     name: '4 weeks Live Project Training',
     content: ['The industrial training courses in Noida emphasize to deliver in-depth understanding from basic to advance level and designed for both students and working professionals.',
