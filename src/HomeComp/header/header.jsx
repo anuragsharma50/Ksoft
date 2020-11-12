@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import logo from '../../images/logo.jpg';
 import './header.styles.css';
+import { useMediaQuery } from 'react-responsive'
 
 import { Link } from 'react-router-dom';
 
@@ -21,6 +22,7 @@ function Header() {
     const [offer,setOffer] = useState(true)
     const [discount, setDiscount] = useState(0)
     const [offerClass, setOfferClass] = useState('header-offer  undo-offer-effect')
+    const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
 
     useEffect(() => {
         if(Math.random() > 0.5){
@@ -28,6 +30,10 @@ function Header() {
         }
         else{
             setDiscount(30)
+        }
+
+        if(isTabletOrMobile){
+            setMenu(false)
         }
     }, [])
 
